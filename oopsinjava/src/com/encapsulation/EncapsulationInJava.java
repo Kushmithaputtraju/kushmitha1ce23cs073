@@ -1,5 +1,7 @@
 package com.encapsulation;
 
+import com.abstraction.Vehicle;
+
 class Student{
 	private String name;
 	private int id;
@@ -45,6 +47,7 @@ public class EncapsulationInJava {
 		s1.setRoll(102);
 		s1.setId(1001);
 		System.out.println(s1);
+		Vehicle.display();
 	}
 
 }
